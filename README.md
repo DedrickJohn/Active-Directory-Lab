@@ -35,17 +35,32 @@ Pre setup: TBA (includes the installation of windows, Splunk, kali, the setup of
 2: This shows the completed configuration of my own local domain through the use of Windows Server manager. Through Windows Server manager I was able to add a new group for the purposes of this lab in which I added 2 new users to, one of which Jenny Smith which is the user that the brute force attack will be performed on with the kali linux machine. 
 ![addedtoDomain](https://github.com/user-attachments/assets/072377f4-c063-4c89-94f0-89dffa3c455b)
 
+
+
+
 3: This shows the IP address of the Kali linux machine ensuring that everything matches the network diagram
 ![networkconfigkali](https://github.com/user-attachments/assets/19707c62-6355-447c-8c7e-b0b233b5f369)
+
+
+
 
 4: After installing and updating of kali and various features I created a new path where the passwords file would be located. The picture shows the passwords inside the file with the target's Password inside. This txt file will be used with brute forcing tools and RDP to attempt to logon using the targets (Jenny Smith's) credentials. 
 ![passwords](https://github.com/user-attachments/assets/bbdb4d5f-b3e6-4419-ac9b-4b0673bc5184)
 
+
+
+
 4A: Added users that can connect using RDP, neccessary for the attack to work. 
 ![rdp](https://github.com/user-attachments/assets/26e06b14-1121-4e85-8976-35a8d0a74a3e)
 
+
+
+
 5: This shows a completed attempt to logon using the targets credentials using the tool hydra in kali linux. You can see it go through the passwords in the lists until it gets to the correct password in which a success is made. This is important as this will show up on the splunk page. 
 ![hyrdasuccess](https://github.com/user-attachments/assets/43614fba-3bc6-4a45-984a-633a84eae2cc)
+
+
+
 
 6A: Search for telemetry on the jsmith user using the endpoint setup from The Splunk Universal Forwarder and sysmon
 ![splunklog1](https://github.com/user-attachments/assets/f140490d-0bb1-4d48-b407-e4cc0a3ef1e0)
@@ -54,10 +69,18 @@ Pre setup: TBA (includes the installation of windows, Splunk, kali, the setup of
 6C: Using the Windows Log Event codes we can figure out what the codes 4625 and 4624 mean. 4625 means an account failed to logon while 4624 means an account successfully logged on. (Note: see problems and solutions for more information as to why code 4624 is greater than 1)
 ![docue](https://github.com/user-attachments/assets/61d4a3cc-a4c9-4b56-8b84-12ddc940db97)
 
+
+
+
+
 7A: By expanding the Splunk logs we can see more details on this event code.
 ![success](https://github.com/user-attachments/assets/74734f6e-80f4-41a1-81f4-99e606ade05d)
 7B: From the details we can see where this attack happened from, I can see the workstation (kali) and its IP address. Both of which match the attacker machine used to attack the target. 
 ![workstation](https://github.com/user-attachments/assets/afff6180-73e4-4ae1-b001-a9e8cf3d04e0)
+
+
+
+
 
 Problems encountered and how they were solved:
   - Performance

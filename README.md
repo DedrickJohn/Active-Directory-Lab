@@ -1,5 +1,6 @@
 # Active Directory Lab
 
+Disclaimer: all tools/passwords were used in a virtual environment for education purposes only
 ## Objective
 
 This Active Directoy Lab was created to simulate a realistic enterprise network using Windows infrastructure for hands-on cybersecurity practice. The goal was to deploy, secure, and monitor an Active Directory domain while using a SIEM (Splunk) to detect malicious behavior such as privilege escalation, unauthorized logins, and lateral movement. This lab provided valuable experience in blue-team operations, log correlation, and incident response.
@@ -25,7 +26,10 @@ This Active Directoy Lab was created to simulate a realistic enterprise network 
 1: Network Diagram*
 ![draw2](https://github.com/user-attachments/assets/2cefb5ec-4a18-44cf-9cb1-e64902e8ac02)
 
-Setup and 
+1A: Virtual Machine Setup (VirtualBox) 
+![vm](https://github.com/user-attachments/assets/aa0d578c-59ac-4383-a59d-71b351dd3a98)
+
+
 ![addedtoDomain](https://github.com/user-attachments/assets/072377f4-c063-4c89-94f0-89dffa3c455b)
 ![networkconfigkali](https://github.com/user-attachments/assets/19707c62-6355-447c-8c7e-b0b233b5f369)
 ![passwords](https://github.com/user-attachments/assets/bbdb4d5f-b3e6-4419-ac9b-4b0673bc5184)
@@ -37,6 +41,8 @@ Setup and
 ![success](https://github.com/user-attachments/assets/74734f6e-80f4-41a1-81f4-99e606ade05d)
 ![workstation](https://github.com/user-attachments/assets/afff6180-73e4-4ae1-b001-a9e8cf3d04e0)
 
+Problems encountered and how they were solved:
+Final Thoughts on this lab: 
 
 
 

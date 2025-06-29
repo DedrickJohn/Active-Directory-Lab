@@ -42,6 +42,8 @@ This Active Directoy Lab was created to simulate a realistic enterprise network 
 ![workstation](https://github.com/user-attachments/assets/afff6180-73e4-4ae1-b001-a9e8cf3d04e0)
 
 Problems encountered and how they were solved:
+
+
 Final Thoughts on this lab: 
 
 

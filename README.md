@@ -20,10 +20,6 @@ This Active Directoy Lab was created to simulate a realistic enterprise network 
 - **Event Viewer** – for manual log inspection
   
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
-
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
 
 *Ref 1: Network Diagram*
+![draw2](https://github.com/user-attachments/assets/2cefb5ec-4a18-44cf-9cb1-e64902e8ac02)

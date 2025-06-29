@@ -24,11 +24,13 @@ This Active Directoy Lab was created to simulate a realistic enterprise network 
 ## Steps
 
 1: Network Diagram*
+Brief overview of how the network is setup between the splunk server, windows server, attacker machine, and target machine. Includes Ip addresses that were used as well as the connections between the machines and tools used.
 ![draw2](https://github.com/user-attachments/assets/2cefb5ec-4a18-44cf-9cb1-e64902e8ac02)
 
 1A: Virtual Machine Setup (VirtualBox) 
 ![vm](https://github.com/user-attachments/assets/aa0d578c-59ac-4383-a59d-71b351dd3a98)
 
+Pre setup: TBA
 
 ![addedtoDomain](https://github.com/user-attachments/assets/072377f4-c063-4c89-94f0-89dffa3c455b)
 ![networkconfigkali](https://github.com/user-attachments/assets/19707c62-6355-447c-8c7e-b0b233b5f369)
@@ -42,9 +44,14 @@ This Active Directoy Lab was created to simulate a realistic enterprise network 
 ![workstation](https://github.com/user-attachments/assets/afff6180-73e4-4ae1-b001-a9e8cf3d04e0)
 
 Problems encountered and how they were solved:
-
+  - Performance
+      - Running 4 VM's at once was incredibly taxing on my PC. In order to reduce strain I had to research ways to optimize windows and the VM's so that I could run them simultaneously. Proper management of the VM system settings to turn off any unnessecary functions as well as accurately deciding what VM's needed a certain amount of RAM were used. In addition, setting windows to performance mode using sysdm.cpl > Performance > Settings > Adjust for best performance helped with running 2 windows based VM's at the same time.
+  - Network
+      - It is incredibly important to double check the network settings and make sure each VM is setup with the proper network adapter through both VirtualBox settings as well as inside the VM. This also links back to performance as I was encountering network issues the less resources I dedicated to my VM's. Ways that I fixed the network issues included: double checking network settings, using ipconfig and ping commands to ensure that there was an open connection, allocating the neccessary amount of resources. 
 
 Final Thoughts on this lab: 
+  - This was a good introductory lab as it was my first time setting up a home lab environment and documenting my steps. It taught me about the basics of splunk, the importance of being able to analyze logs, how to set up a VM and run multiple at the same time, and expanded upon my knowledge of networks.
+  - For future labs I want to improve on my documentation as well as delve into more complex lab environments as I explore more ways to improve my threat detection.
 
 
 

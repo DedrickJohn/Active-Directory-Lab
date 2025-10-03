@@ -3,7 +3,7 @@
 Disclaimer: all tools/passwords were used in a virtual environment for education purposes only
 ## Objective
 
-This Active Directoy Lab was created to simulate a realistic enterprise network using Windows infrastructure for hands-on cybersecurity practice. The goal was to deploy, secure, and monitor an Active Directory domain while using a SIEM (Splunk) to detect malicious behavior such as privilege escalation, unauthorized logins, and lateral movement. This lab provided valuable experience in blue-team operations, log correlation, and incident response.
+This Active Directory Lab was created to simulate a realistic enterprise network using Windows infrastructure for hands-on cybersecurity practice. The goal was to deploy, secure, and monitor an Active Directory domain while using a SIEM (Splunk) to detect malicious behavior such as privilege escalation, unauthorized logins, and lateral movement. This lab provided valuable experience in blue-team operations, log correlation, and incident response.
 
 ### Skills Learned
 
